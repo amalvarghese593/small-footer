@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+:root {
+  --bg-primary: #d82028;
+  --bg-secondary: #373656;
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secondary: "Roboto", sans-serif;
+  --font-family-tertiary: "Lato", sans-serif;
+
+  --color-white: #fff;
+  --first-color: #1a73e8;
+  --input-color: #80868b;
+  --border-color: #dadce0;
+  --footer-bg-color: #f3eed9;
+  --body-font: "Roboto", sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.connect-footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(--footer-bg-color);
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  /* flex-wrap: wrap; */
+}
+.connect-footer p {
+  font-size: 16px;
+  font-family: var(--font-family-primary);
+  color: #b7b7b7;
+  color: #824936;
+  color: #262833;
+}
+.email-container {
+  padding: 5px;
+  /* border: 1px solid blue; */
+}
+.quotation-container {
+  padding: 5px;
+  /* border: 1px solid green; */
+  /* line-height: 24px; */
+}
+.socialmedia-icons-container {
+  /* border: 1px solid coral; */
+  padding: 5px;
+}
+@media all and (max-width: 680px) {
+  .connect-footer {
+    flex-direction: column;
+    height: 220px;
+    row-gap: 30px;
+    padding: 10px;
+  }
+}
