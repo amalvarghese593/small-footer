@@ -15,7 +15,7 @@
   --first-color: #1a73e8;
   --input-color: #80868b;
   --border-color: #dadce0;
-  --footer-bg-color: #f3eed9;
+  --footer-bg-color: #880808;
   --body-font: "Roboto", sans-serif;
   --normal-font-size: 1rem;
   --small-font-size: 0.75rem;
@@ -38,7 +38,7 @@
 .connect-footer p {
   font-size: 16px;
   font-family: var(--font-family-primary);
-  color: #262833;
+  color: #fff;
 }
 .email-container {
   margin-left: 50px;
@@ -65,7 +65,7 @@
     flex-direction: column;
     height: 220px;
     row-gap: 30px;
-    padding: 10px;
+    padding: 20px;
   }
   .email-container {
     margin-right: 20px;
@@ -74,15 +74,30 @@
     margin-left: 20px;
   }
 }
-@media all and (max-width: 310px) {
+@media all and (max-width: 330px) {
   .email-container,
   .socialmedia-icons-container {
     margin-inline: 10px;
   }
 }
-@media all and (max-width: 290px) {
+@media all and (max-width: 308px) {
   .email-container,
   .socialmedia-icons-container {
     margin-inline: 5px;
+  }
+}
+@media all and (max-width: 297px) {
+  .email-container,
+  .socialmedia-icons-container {
+    margin-inline: 1px;
+  }
+}
+@media all and (max-width: 289px) {
+  .email-container,
+  .socialmedia-icons-container {
+    margin-inline: 0.5px;
+  }
+  .connect-footer {
+    height: 240px;
   }
 }
